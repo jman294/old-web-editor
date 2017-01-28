@@ -2,7 +2,7 @@
   "name": "upcrash",
   "version": "1.0.0",
   "description": "A web text editor",
-  "main": "main.js",
+  "main": "src/main.js",
   "repository": "https://github.com/jman294/upcrash-web",
   "scripts": {
     "start": "webpack-dev-server ./main  --host=`hostname -I` --hot --inline "
