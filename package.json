@@ -1,0 +1,29 @@
+{
+  "name": "upcrash",
+  "version": "1.0.0",
+  "description": "A web text editor",
+  "main": "main.js",
+  "repository": "https://github.com/jman294/upcrash-web",
+  "scripts": {
+    "start": "webpack-dev-server ./main  --host=`hostname -I` --hot --inline "
+  },
+  "keywords": [
+    "editor upcrash text"
+  ],
+  "author": "Jack DuPlessis",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-loader": "^6.2.x",
+    "babel-core": "^6.18.x",
+    "babel-preset-es2015": "^6.18.x",
+    "webpack": "^1.13.x",
+    "webpack-dev-server": "^1.16.x",
+    "style-loader": "^0.13.x",
+    "css-loader": "^0.26.x"
+  },
+  "dependencies": {
+    "keywatcher": "^1.0.0",
+    "lodash.includes": "^4.3.0",
+    "pressed": "^1.3.1"
+  }
+}
